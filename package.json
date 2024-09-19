@@ -6,24 +6,41 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "email": "email dev --dir app/emails"
   },
   "dependencies": {
+    "@clerk/nextjs": "^5.4.1",
     "@fortawesome/fontawesome-svg-core": "^6.6.0",
     "@fortawesome/free-solid-svg-icons": "^6.6.0",
     "@fortawesome/react-fontawesome": "^0.2.2",
+    "@react-email/components": "0.0.25",
     "axios": "^1.7.2",
+    "bootstrap": "^5.3.3",
+    "jquery": "^3.7.1",
+    "magnific-popup": "^1.2.0",
     "next": "14.2.5",
+    "owl.carousel": "^2.3.4",
+    "pm2": "^5.4.2",
     "react": "^18",
     "react-dom": "^18",
     "react-flags-select": "^2.2.3",
+    "react-modal": "^3.16.1",
     "react-modal-video": "^2.0.2",
     "react-slick": "^0.30.2",
-    "slick-carousel": "^1.8.1"
+    "resend": "^3.5.0",
+    "sass": "^1.77.8",
+    "slick-carousel": "^1.8.1",
+    "styled-components": "^6.1.12",
+    "swiper": "^11.1.9"
   },
   "devDependencies": {
+    "@types/node": "22.5.4",
+    "@types/react": "18.3.5",
     "daisyui": "^4.12.10",
     "postcss": "^8",
-    "tailwindcss": "^3.4.1"
+    "react-email": "3.0.1",
+    "tailwindcss": "^3.4.1",
+    "typescript": "5.5.4"
   }
 }
